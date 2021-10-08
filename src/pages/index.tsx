@@ -25,7 +25,51 @@ interface HomeProps {
 }
 
 export default function Home() {
-  return <h1>Hello word</h1>
+  return (
+    <>
+      <header>
+        <img src="/images/logo.svg" alt="logo"/>
+      </header>
+      
+      <main>
+      <a>
+        <strong>Como utilizar Hooks</strong>
+        <p>Pensando em sincronização em vez de ciclos de vida.</p>
+        <div>
+          <time>15 Mar 2021</time>
+          <p>Joseph Oliveira</p>
+        </div>
+        </a>
+
+        <a>
+        <strong>Como utilizar Hooks</strong>
+        <p>Pensando em sincronização em vez de ciclos de vida.</p>
+        <div>
+          <time>15 Mar 2021</time>
+          <p>Joseph Oliveira</p>
+        </div>
+        </a>
+
+        <a>
+        <strong>Como utilizar Hooks</strong>
+        <p>Pensando em sincronização em vez de ciclos de vida.</p>
+        <div>
+          <time>15 Mar 2021</time>
+          <p>Joseph Oliveira</p>
+        </div>
+        </a>
+        
+        <a>
+        <strong>Como utilizar Hooks</strong>
+        <p>Pensando em sincronização em vez de ciclos de vida.</p>
+        <div>
+          <time>15 Mar 2021</time>
+          <p>Joseph Oliveira</p>
+        </div>
+        </a>
+      </main>
+    </>
+  )
 }
 
 // export const getStaticProps = async () => {
