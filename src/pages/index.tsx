@@ -1,4 +1,5 @@
 import { GetStaticProps } from 'next';
+import { FiCalendar, FiUser } from 'react-icons/fi'
 
 import { getPrismicClient } from '../services/prismic';
 
@@ -39,8 +40,8 @@ export default function Home() {
         Pensando em sincronização em vez de ciclos de vida.
         </p>
         <div className={styles.footer}>
-          <p>15 Mar 2021</p>
-          <p>Joseph Oliveira</p>
+        <div> <FiCalendar size={20} color="#FFF" /> <p>15 Mar 2021</p></div>
+          <div> <FiUser size={20} color="#FFF" /> <p>Joseph Oliveira</p></div>
         </div>
         </a>
 
@@ -48,8 +49,8 @@ export default function Home() {
         <strong>Como utilizar Hooks</strong>
         <p>Pensando em sincronização em vez de ciclos de vida.</p>
         <div className={styles.footer}>
-          <p>15 Mar 2021</p>
-          <p>Joseph Oliveira</p>
+        <div> <FiCalendar size={20} color="#FFF" /> <p>15 Mar 2021</p></div>
+          <div> <FiUser size={20} color="#FFF" /> <p>Joseph Oliveira</p></div>
         </div>
         </a>
 
@@ -57,8 +58,8 @@ export default function Home() {
         <strong>Como utilizar Hooks</strong>
         <p>Pensando em sincronização em vez de ciclos de vida.</p>
         <div className={styles.footer}>
-          <p>15 Mar 2021</p>
-          <p>Joseph Oliveira</p>
+        <div> <FiCalendar size={20} color="#FFF" /> <p>15 Mar 2021</p></div>
+          <div> <FiUser size={20} color="#FFF" /> <p>Joseph Oliveira</p></div>
         </div>
         </a>
         
@@ -66,8 +67,8 @@ export default function Home() {
         <strong>Como utilizar Hooks</strong>
         <p>Pensando em sincronização em vez de ciclos de vida.</p>
         <div className={styles.footer}>
-          <p>15 Mar 2021</p>
-          <p>Joseph Oliveira</p>
+        <div> <FiCalendar size={20} color="#FFF" /> <p>15 Mar 2021</p></div>
+          <div> <FiUser size={20} color="#FFF" /> <p>Joseph Oliveira</p></div>
         </div>
         </a>
     </div>
