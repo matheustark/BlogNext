@@ -30,31 +30,34 @@ export default function Home() {
       <header>
         <img src="/images/logo.svg" alt="logo"/>
       </header>
-      
-      <main>
-      <a>
+  <main className={styles.container}>
+    <div className={styles.post} >
+      <a href="#">
         <strong>Como utilizar Hooks</strong>
-        <p>Pensando em sincronização em vez de ciclos de vida.</p>
-        <div>
-          <time>15 Mar 2021</time>
+        <p>Pensando em sincronização em vez de ciclos de vida.
+        Pensando em sincronização em vez de ciclos de vida.
+        Pensando em sincronização em vez de ciclos de vida.
+        </p>
+        <div className={styles.footer}>
+          <p>15 Mar 2021</p>
           <p>Joseph Oliveira</p>
         </div>
         </a>
 
-        <a>
+        <a href="#">
         <strong>Como utilizar Hooks</strong>
         <p>Pensando em sincronização em vez de ciclos de vida.</p>
-        <div>
-          <time>15 Mar 2021</time>
+        <div className={styles.footer}>
+          <p>15 Mar 2021</p>
           <p>Joseph Oliveira</p>
         </div>
         </a>
 
-        <a>
+        <a href="#">
         <strong>Como utilizar Hooks</strong>
         <p>Pensando em sincronização em vez de ciclos de vida.</p>
-        <div>
-          <time>15 Mar 2021</time>
+        <div className={styles.footer}>
+          <p>15 Mar 2021</p>
           <p>Joseph Oliveira</p>
         </div>
         </a>
@@ -62,11 +65,13 @@ export default function Home() {
         <a>
         <strong>Como utilizar Hooks</strong>
         <p>Pensando em sincronização em vez de ciclos de vida.</p>
-        <div>
-          <time>15 Mar 2021</time>
+        <div className={styles.footer}>
+          <p>15 Mar 2021</p>
           <p>Joseph Oliveira</p>
         </div>
         </a>
+    </div>
+
       </main>
     </>
   )
